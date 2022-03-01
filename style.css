@@ -1,0 +1,34 @@
+.container {
+	padding: 0 1rem;
+}
+.tag{
+	cursor: default;
+}
+.icons {
+	font-size: 1.5rem;
+}
+
+.icons a {
+	margin-right: 0.2rem;
+}
+
+.card-header-title{
+	display: flex;
+	justify-content: center !important;
+}
+
+::-moz-selection {
+	color: white;
+	background: #3298dc;
+}
+
+::selection {
+	color: white;
+	background: #3298dc;
+}
+
+.card-header-title__custom{
+	font-size: 1.1rem;
+	text-transform: capitalize;
+	padding-top: 1rem;
+}
