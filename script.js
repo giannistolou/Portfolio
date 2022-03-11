@@ -63,6 +63,15 @@ const isForked = (value) => {
 	}
 	return "";
 };
+
+const projectWebsite = (value) => {
+	if(value != "" && value != undefined){
+		return `<a target="_blank" href="` +
+		value +
+		`" class="card-footer-item">Website</a>`
+	}
+	return ""
+}
 function githubRequest(url, name) {
 	var xhrGithub = new XMLHttpRequest();
 	xhrGithub.open("GET", url);
@@ -113,6 +122,7 @@ function githubRequest(url, name) {
 										<a target="_blank" href="` +
 							project.svn_url +
 							`" class="card-footer-item">Read more</a>
+							` + projectWebsite(project.homepage) + `
 									</footer>
 								</div>
 							</div>`;
