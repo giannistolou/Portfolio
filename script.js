@@ -6,7 +6,7 @@ xhr.onreadystatechange = function () {
 	if (xhr.readyState === 4) {
 		var ar = JSON.parse(xhr.responseText);
 		const x = document.getElementById("articles");
-		ar.map((article) => {
+		ar.reverse().map((article) => {
 			x.innerHTML +=
 				`	
 		<div class="column is-4 mb-3">
