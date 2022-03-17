@@ -121,7 +121,7 @@ function githubRequest(url, name) {
 									<footer class="card-footer">
 										<a target="_blank" href="` +
 							project.svn_url +
-							`" class="card-footer-item">Github Repository</a>
+							`" class="card-footer-item">GitHub Repository</a>
 							` + projectWebsite(project.homepage) + `
 									</footer>
 								</div>
