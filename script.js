@@ -9,7 +9,7 @@ xhr.onreadystatechange = function () {
 		ar.reverse().map((article) => {
 			x.innerHTML +=
 				`	
-		<div class="column is-4 mb-3">
+		<div class="column is-full-mobile is-half-tablet is-one-third-desktop">
 			<div class="card">
 				<p class="card-header-title has-text-centered card-header-title__custom">
 				` +
@@ -94,7 +94,7 @@ function githubRequest(url, name) {
 						lanRes = JSON.parse(languagesXhr.responseText);
 						x.innerHTML +=
 							`	
-							<div class="column is-4 mb-3">
+							<div class="column is-full-mobile is-half-tablet is-one-third-desktop">
 								<div class="card">
 									<p class="card-header-title has-text-centered card-header-title__custom">
 									` +
