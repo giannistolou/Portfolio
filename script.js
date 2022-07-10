@@ -135,8 +135,8 @@ function githubRequest(url, name) {
 	xhrGithub.send();
 }
 githubRequest(
-	"https://api.github.com/orgs/book-community/repos",
-	"book-community"
+	"https://api.github.com/orgs/quiz4math/repos",
+	"quiz4math"
 );
 githubRequest(
 	"https://api.github.com/users/giannistolou/repos",
