@@ -142,3 +142,7 @@ githubRequest(
 	"https://api.github.com/users/giannistolou/repos",
 	"giannistolou"
 );
+githubRequest(
+	"https://api.github.com/orgs/book-community/repos",
+	"Book Community"
+);
