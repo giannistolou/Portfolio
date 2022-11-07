@@ -144,5 +144,5 @@ githubRequest(
 );
 githubRequest(
 	"https://api.github.com/orgs/book-community/repos",
-	"Book Community"
+	"Book-Community"
 );
